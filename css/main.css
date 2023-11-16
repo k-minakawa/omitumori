@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.main_mitsumori {
+  background-color:#FFF;
+  padding:20px;
+  max-height:600px;
+  box-sizing:border-box;
+}
+.mitsumori-js-tbl {
+  width:100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  appearance: auto;
+}
+.thead th,
+.item-name {
+  text-align: center;
+}
+.thead th,
+.mitsumori-js-item td {
+  border:1px solid #338ee3;
+  padding:12px;
+}
+.item-name,
+.item-price {
+  width: 160px;
+}
+.item-quantity {
+  display: flex;
+  flex-direction: column;
+}
+.main_mitsumori__total tr {
+  margin-top: 40px;
+}
+.main_mitsumori__total th,
+.main_mitsumori__total td {
+  border: 4px solid #338ee3;
+  padding: 16px;
+}
+#mitsumori-js .mitsumori-js-tbl {
+  margin-bottom:15px;
+}
+#mitsumori-js .mitsumori-js-total-tbl {
+  width:480px;
+  margin-left:auto;
+}
